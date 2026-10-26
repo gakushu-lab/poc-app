@@ -9,5 +9,5 @@ http.createServer((req, res) => {
     return;
   }
   res.writeHead(200, { 'content-type': 'text/html; charset=utf-8' });
-  res.end('<!doctype html><title>poc</title><p>poc v1</p>');
+  res.end('<!doctype html><title>poc</title><p>poc v2</p>');
 }).listen(Number(port), host);
